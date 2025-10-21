@@ -19,6 +19,10 @@ Install Pillow with your system package manager or pip:
 sudo apt install python3-pillow
 # or
 pip install pillow
+# You will need a Python virtual environment to run this script properly with pip.
+# Create and activate it before installing the dependencies:
+python3 -m venv venv
+source venv/bin/activate
 ```
 
 ## Usage
@@ -66,6 +70,10 @@ Installer Pillow via le gestionnaire de paquets ou pip :
 sudo apt install python3-pillow
 # OU
 pip install pillow
+# Vous aurez besoin d’un environnement virtuel Python pour exécuter ce script correctement.
+# Créez-le et activez-le avant l’installation des dépendances :
+python3 -m venv venv
+source venv/bin/activate
 ```
 
 ## Utilisation
