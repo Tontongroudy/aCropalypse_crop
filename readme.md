@@ -23,8 +23,10 @@ pip install pillow
 
 ## Usage
 ```bash
+# left and top must be smaller than right and bottom
 python3 acropalypse_crop.py [mode] [original_file.png] [output_file.png] left top right bottom
 ```
+
 
 ## Modes
 - `windows`  
@@ -68,7 +70,8 @@ pip install pillow
 
 ## Utilisation
 ```bash
-python3 acropalypse_crop.py [mode] [fichier_original.png] [fichier_sortie.png] left top right bottom
+# gauche et haut doit être inférieur à droit et bas
+python3 acropalypse_crop.py [mode] [fichier_original.png] [fichier_sortie.png] gauche haut droit bas
 ```
 
 ## Modes
