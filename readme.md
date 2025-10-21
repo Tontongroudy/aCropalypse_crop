@@ -1,10 +1,11 @@
 # aCropalypse PNG Generator
 
 > **FOR EDUCATIONAL USE ONLY / POUR USAGE ÉDUCATIF UNIQUEMENT**
+> version française en dessous
 
 ---
 
-# English
+# English 
 
 ## Overview
 This script (Python 3.8+) generates a PNG that is vulnerable to **aCropalypse** from an existing PNG file. It is intended for testing, research and CTF/lab use **only**.
