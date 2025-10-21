@@ -133,6 +133,8 @@ def usage_and_exit():
 def parse_box(argv):
     try:
         left = int(argv[0]); top = int(argv[1]); right = int(argv[2]); bottom = int(argv[3])
+        if not (left < right and top < bottom and top < right and bottom > left):
+            raise ValueError(f"Coordonnées invalides : (left={left}, top={top}, right={right}, bottom={bottom}).")
         return (left, top, right, bottom)
     except Exception as e:
         raise
