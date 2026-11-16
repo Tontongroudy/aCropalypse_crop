@@ -1,7 +1,18 @@
 # aCropalypse PNG Generator
 
+![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=flat-square&logo=python&logoColor=white)
+![Pillow](https://img.shields.io/badge/Pillow-image-8CA1AF?style=flat-square)
+![CVE-2023-21036](https://img.shields.io/badge/CVE--2023--21036-Pixel_Markup-critical?style=flat-square)
+![CVE-2023-28303](https://img.shields.io/badge/CVE--2023--28303-Windows_Snipping_Tool-critical?style=flat-square)
+
 > **FOR EDUCATIONAL USE ONLY / POUR USAGE ÉDUCATIF UNIQUEMENT**
 > version française en dessous
+
+**aCropalypse** is a 2023 vulnerability in Google Pixel's *Markup* tool and the Windows *Snipping Tool*. When a screenshot was cropped and saved, the original file was not truncated, so the hidden part of the image stayed at the end of the PNG and could be recovered.
+
+This tool **reproduces the flaw on purpose**: it builds a cropped PNG that still carries the original data, to create test samples for CTFs, labs and forensics training.
+
+*FR — **aCropalypse** est une faille de 2023 qui touchait l'outil Markup des Google Pixel et l'Outil Capture d'écran de Windows : après un recadrage, les données de l'image d'origine restaient à la fin du fichier PNG et pouvaient être récupérées. Cet outil reproduit volontairement la faille pour générer des échantillons de test (CTF, labo, forensic).*
 
 ---
 
